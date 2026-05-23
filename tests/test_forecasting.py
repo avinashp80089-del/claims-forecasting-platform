@@ -13,8 +13,8 @@ from src.etl import build_model_dataset
 @pytest.fixture
 def sample_series():
     np.random.seed(0)
-    dates = pd.date_range("2023-01-01", periods=365, freq="D")
-    values = 300 + 50 * np.sin(2 * np.pi * np.arange(365) / 7) + np.random.normal(0, 15, 365)
+    dates = pd.date_range("2022-01-01", periods=730, freq="D")
+    values = 300 + 50 * np.sin(2 * np.pi * np.arange(730) / 7) + np.random.normal(0, 15, 730)
     return pd.Series(values.clip(min=0), index=dates)
 
 
