@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+data/claims.db
+data/*.csv
+reports/
+*.egg-info/
+dist/
+.env
