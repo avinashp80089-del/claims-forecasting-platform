@@ -4,7 +4,7 @@ __pycache__/
 .pytest_cache/
 .coverage
 data/claims.db
-data/*.csv
+data/model_dataset.csv
 reports/
 *.egg-info/
 dist/
